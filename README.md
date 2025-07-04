@@ -56,3 +56,5 @@ npm install -g json-server
 npx json-server db/database.json
 npx json-server db/database.json
 
+# autor 
+GABRIEL ALBERTO PALLARES NAVARRO 
