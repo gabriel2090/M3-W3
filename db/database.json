@@ -1,0 +1,11 @@
+{
+  "appointments": [
+    {
+      "id": "3866",
+      "nombre_del_producto": "arroz",
+      "precio": "20000",
+      "date": "2025-07-04",
+      "description": "ssss"
+    }
+  ]
+}

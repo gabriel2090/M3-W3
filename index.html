@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gestión de Citas Veterinarias" />
+  <title>Gestión de Citas</title>
+  <link rel="stylesheet" href="./src/css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Gestión de Citas</h1>
+  </header>
+
+  <main>
+    <form id="form">
+      
+      <input type="text" id="nombre_del_producto" placeholder="NOMBRE DEL PRODUCTO" required />
+      <input type="tel" id="price" placeholder="PRECIO" required />
+      <input type="date" id="date_cite" required />
+      
+      <textarea id="description" placeholder="Descripción" required></textarea>
+      <button type="submit">Guardar cita</button>
+    </form>
+
+    <section id="appointments-list"></section>
+  </main>
+  <script type="module" src="./src/js/main.js"></script>
+  <footer>
+    <p>&copy; 2025 Citas Veterinarias CRUD</p>
+  </footer>
+
+
+
+</body>
+
+</html>
